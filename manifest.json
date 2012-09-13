@@ -1,0 +1,21 @@
+{
+  "name": "Fracture it",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Shorten URLs like a boss",
+  "browser_action": {
+    "default_icon": "link.png",
+    "default_title": "Fracture it"
+  },
+  "background": {
+    "scripts": ["jquery.min.js", "listener.js"]
+  },
+  "permissions": [
+    "tabs",
+    "http://fracture-url.herokuapp.com/"
+  ],
+  "icons": {
+    "48": "fracture_48.png",
+    "128": "fracture_128.png"
+  }
+}
