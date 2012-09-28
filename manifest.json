@@ -1,10 +1,10 @@
 {
   "name": "Fracture it",
-  "version": "0.1",
+  "version": "1.2",
   "manifest_version": 2,
   "description": "Shorten URLs like a boss",
   "browser_action": {
-    "default_icon": "link.png",
+    "default_icon": "fracture_19.png",
     "default_title": "Fracture it"
   },
   "background": {
